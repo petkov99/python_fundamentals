@@ -15,11 +15,12 @@ class Catalogue:
         returning_string += "\n".join(sorted(self.products))
         return returning_string
 
-    catalogue = Catalogue("Furniture")
-    catalogue.add_product("Sofa")
-    catalogue.add_product("Mirror")
-    catalogue.add_product("Desk")
-    catalogue.add_product("Chair")
-    catalogue.add_product("Carpet")
-    print(catalogue.get_by_letter("C"))
-    print(catalogue)
+catalogue = Catalogue("Furniture")
+catalogue.add_product("Sofa")
+catalogue.add_product("Mirror")
+catalogue.add_product("Desk")
+catalogue.add_product("Chair")
+catalogue.add_product("Carpet")
+print(catalogue.get_by_letter("C"))
+print(catalogue)
+
